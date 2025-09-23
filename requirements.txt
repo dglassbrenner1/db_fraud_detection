@@ -9,3 +9,7 @@ datetime
 pyspark
 databricks-sdk
 python-dotenv
+xgboost>=1.7.4
+pandas>=2.0.3
+dask>=2023.9.1
+distributed>=2023.9.1
