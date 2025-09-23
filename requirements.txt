@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+mlflow
+pandas
+pydantic
+xgboost
+scikit-learn==1.4.2
+datetime
+pyspark
+databricks-sdk
+python-dotenv
