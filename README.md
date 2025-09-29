@@ -13,7 +13,7 @@ We deployed a tuned XGBoost model in Databricks and created an interactive dashb
 
 ### Key Features
 
-- The trained model uses hyperparameters from Python experiments, trained with PySpark and MLflow on the Handbook’s dataset.
+- The trained model uses hyperparameters from Python experiments, trained with PySpark and MLflow on synthetic credit card transaction data from the Fraud Detection Handbook in the references.
 - Registered the model in the Databricks Model Registry.
 - Prediction results are stored in a Delta table in Unity Catalog.
 - SQL queries generate datasets for dashboard visualizations.
@@ -41,7 +41,7 @@ We deployed a tuned XGBoost model in Databricks and created an interactive dashb
 
 ### Usage
 
-- This repo serves as the single source of truth for development and deployment of fraud detection assets in Databricks.
+- This repo serves as the single source of truth for the development and maintenance of the fraud detection dashboard housed in Databricks.
 - Dashboards, notebooks, and code sync automatically with the Databricks Git folder for traceability and CI/CD workflows.
 - Changes pushed to this repo update the Databricks workspace and vice versa when committed through the Git folder.
 
