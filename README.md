@@ -15,6 +15,7 @@ We deployed a tuned XGBoost model in Databricks and created an interactive dashb
 
 - The trained model uses hyperparameters from Python experiments, trained with PySpark and MLflow on synthetic credit card transaction data from the Fraud Detection Handbook in the references.
 - The model is registered in the Databricks Model Registry.
+- A FastAPI app acts as a backend model serving service, exposing MLflow-hosted models in Databricks via RESTful API endpoints. This enables real-time fraud prediction accessible to dashboards and other clients.
 - Prediction results are stored in a Delta table in Unity Catalog.
 - SQL queries generate datasets for dashboard visualizations.
 - Dashboard contains three main sheets:
