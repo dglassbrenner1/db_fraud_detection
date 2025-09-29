@@ -22,23 +22,6 @@ We deployed a tuned XGBoost model in Databricks and created an interactive dashb
     2. Monitoring Model Performance
     3. Transaction Activity Over Time
 
-### Repository Structure
-
-- `.github/workflows/`  
-  Contains GitHub Actions workflows for continuous integration and deployment.
-
-- `app/`  
-  The FastAPI application source code and supporting files.
-
-- `Dockerfile`  
-  Defines container build instructions.
-
-- `requirements.txt`  
-  Python package dependencies.
-
-- `.gitignore`  
-  Specifies ignored files for git.
-
 ### Usage
 
 - This repo serves as the single source of truth for the development and maintenance of the fraud detection dashboard housed in Databricks.
@@ -59,7 +42,7 @@ The repository is organized as follows:
   Contains GitHub Actions workflows for CI/CD, including automated deployment of the FastAPI app.
 
 - `app/`  
-  The main application folder holding the FastAPI app source code and related files (e.g., `app.py`, API routes, Dockerfile).
+  The main application folder holding the FastAPI app source code.
 
 - `Dockerfile`  
   Defines the Docker container image setup for deployment of the API service.
@@ -70,8 +53,7 @@ The repository is organized as follows:
 - `.gitignore`  
   Standard git ignore file specifying files and folders to exclude from version control.
 
-This structure supports easy development, testing, and deployment of the fraud detection API and related components.  
-The repository is integrated with GitHub Actions for automated testing and deployment workflows.
+This structure supports easy development, testing, and deployment of the fraud detection API and related components.  The repository is integrated with GitHub Actions for automated testing and deployment workflows.
 
 You can find the latest commits and updates on this repository at:  
 https://github.com/dglassbrenner1/db_fraud_detection
