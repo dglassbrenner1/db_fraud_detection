@@ -14,7 +14,7 @@ We deployed a tuned XGBoost model in Databricks and created an interactive dashb
 ### Key Features
 
 - The trained model uses hyperparameters from Python experiments, trained with PySpark and MLflow on synthetic credit card transaction data from the Fraud Detection Handbook in the references.
-- Registered the model in the Databricks Model Registry.
+- The model is registered in the Databricks Model Registry.
 - Prediction results are stored in a Delta table in Unity Catalog.
 - SQL queries generate datasets for dashboard visualizations.
 - Dashboard contains three main sheets:
