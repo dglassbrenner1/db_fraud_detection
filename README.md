@@ -67,6 +67,8 @@ Contributions, feedback, and discussions are welcome to improve the understandin
 
 ## Contact
 Donna Glassbrenner, Ph.D.
-GitHub: dglassbrenner1
-Website: https://dglassbrenner1.github.io/my-posts-on-fraud-detection/
+
+*GitHub*: dglassbrenner1
+
+*Website*: https://dglassbrenner1.github.io/my-posts-on-fraud-detection/
 
