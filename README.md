@@ -63,7 +63,7 @@ https://github.com/dglassbrenner1/db_fraud_detection
 Le Borgne, Y.-A., et al. (2022). *Reproducible Machine Learning for Credit Card Fraud Detection – Practical Handbook*. Université Libre de Bruxelles. GitHub Repo
 
 ## Contributions
-Contributions, feedback, and discussions are welcome to improve the understanding and applications shared in this series.
+Contributions, feedback, and discussions are welcome to improve the understanding and applications shared in this repo.
 
 ## Contact
 Donna Glassbrenner, Ph.D.
